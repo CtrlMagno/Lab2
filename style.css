@@ -17,10 +17,11 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0a0a0a;
+    background-color: rgb(0, 3, 11);
     padding: 8px 10px;
     border-radius: 15px;
-    border: 1px solid #222;
+    border: 0.001rem solid #a8c9ff5b;
+    box-shadow: 0 0 10px #0062ff1d;
     max-width: 1000px;
     margin: 30px 125px;
     max-width: none;
@@ -121,7 +122,7 @@ body {
     text-decoration: none;
     font-weight: bold;
     font-size: 35px;
-    margin: 10px 0px;
+    margin: 30px 0px;
 }
 
 .h2{
@@ -130,6 +131,7 @@ body {
     text-decoration: none;
     font-weight: normal;
     font-size: 16px;
-    margin: 10px 0px;
+    margin: 30px 0px;
     
 }
+
