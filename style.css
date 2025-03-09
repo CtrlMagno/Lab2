@@ -211,3 +211,42 @@ body {
     justify-content: space-between;
 
 }
+
+.image1{
+
+    width: 576px;
+    height: auto;
+    border-top-left-radius: 2%;
+    border-top-right-radius: 2%;
+
+}
+
+.cardMain{
+
+    margin: 10px 125px;
+    width: 38%;
+    height: 600px;
+    background-color: rgb(2, 6, 18);
+    border: 1px solid #8e8e8e3e;
+    border-radius: 2%;
+
+
+}
+
+.infotext{
+
+    color: white;    
+
+}
+
+.tittle1{
+
+    color: white;
+
+}
+
+.text{
+
+    color: white;
+
+}
