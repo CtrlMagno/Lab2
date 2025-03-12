@@ -16,12 +16,12 @@ class AppContainer extends HTMLElement {
         <style>
 
             :host {
-                display: flex;
-                flex-wrap: wrap;
-                gap: 20px;
-                justify-content: center;
+                
                 
             }
+
+            
+                
 
         </style>
 

@@ -38,6 +38,18 @@ margin: 0;
 overflow: hidden;
 }
 
+.minicards{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    width: auto;
+    height: auto;
+    gap: 10px;
+    text-decoration: none;
+}
+
 .masterNew{
 
     display: flex;
@@ -105,6 +117,7 @@ overflow: hidden;
 
         </style>
 
+            <div class= "minicards">
 
                    <div class="lastnew">
 
@@ -138,6 +151,8 @@ overflow: hidden;
                         </div>
 
                     </div>
+
+            </div>
 
          `;
     }

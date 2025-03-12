@@ -40,7 +40,7 @@ class BigCard extends HTMLElement {
             background-color: rgb(2, 6, 18);
             border: 1px solid #8e8e8e3e;
             border-radius: 8px;
-            text-decoration: none !important;
+            text-decoration: none;
             margin: 0;
             overflow: hidden;
         }
@@ -101,6 +101,11 @@ class BigCard extends HTMLElement {
             margin-left: auto;
             margin-right: auto;
         }
+
+        .big-card{
+            text-decoration: none;                
+        }
+                
         </style>
 
         <div class="cardMain">
