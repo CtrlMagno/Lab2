@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "serve"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
     "@mui/material": "^6.4.7",
     "@mui/styled-engine-sc": "^6.4.6",
     "styled-components": "^6.1.15"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
   }
 }
