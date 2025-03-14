@@ -28,24 +28,19 @@ class MediumCard extends HTMLElement {
 
             .master{
     display: flex;
-    flex-wrap: nowrap;
-    gap: 20px;
-    margin: 15px auto;
-    width: 90%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
+    width: 100%;
+    height: 100%
 }
 
     .minicard{
     background-color: grey;
-    width: calc(35% - 10px);
     max-width: 500px;
     height: auto;
+    align-items: center;
     background-color: rgb(2, 6, 18);
     border: 1px solid #8e8e8e3e;
     border-radius: 8px;
-    overflow: hidden;
+    
     display: flex;
 }
 
@@ -108,12 +103,17 @@ class MediumCard extends HTMLElement {
     border-radius: 50%;
 }
 
+        .NoDeco{
+        text-decoration: none;
+        margin: 0px;
+        }
+
         </style>
 
         <div class="master">
 
             <div class="minicard">
-                <a href="">
+                <a href="" class="NoDeco">
 
                     <span><img src="${this.img}" alt="" class="image2"></span>
 

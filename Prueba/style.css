@@ -259,11 +259,15 @@ body {
     display: flex;
     justify-content: space-between;
     margin: 2% 10px;
+    
 }
 
 .info4 {
     display: flex;
 }
+  
+  
+
 
 .infotext2 {
     color: white;
@@ -293,6 +297,7 @@ body {
     border-radius: 8px;
     overflow: hidden;
     display: flex;
+    
 }
 
 .master{
@@ -408,6 +413,8 @@ overflow: hidden;
     padding: 3rem 0;
     width: 100%;
   }
+
+  
 
   .footer-container {
     max-width: 1200px;

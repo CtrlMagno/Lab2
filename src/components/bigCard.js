@@ -25,22 +25,23 @@ class BigCard extends HTMLElement {
     render(){
         this.shadowRoot.innerHTML=`
         <style>
-            image1 {
+            .image1 {
             width: 100%;
             height: auto;
+            object-fit: cover;
             border-top-left-radius: 8px;
             border-top-right-radius: 8px;
             display: block;
+            position: relative;
         }
 
         .cardMain {
-            width: calc(50% - 10px);
-            max-width: 550px;
+            width: auto;
             height: auto;
             background-color: rgb(2, 6, 18);
             border: 1px solid #8e8e8e3e;
             border-radius: 8px;
-            text-decoration: none !important;
+            text-decoration: none;
             margin: 0;
             overflow: hidden;
         }
@@ -101,11 +102,20 @@ class BigCard extends HTMLElement {
             margin-left: auto;
             margin-right: auto;
         }
+
+        .big-card{
+            text-decoration: none;                
+        }
+
+        .NoDeco{
+        text-decoration: none;
+        }
+                
         </style>
 
         <div class="cardMain">
 
-            <a href="">
+            <a href="" class="NoDeco">
 
 
 

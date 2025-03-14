@@ -1,1 +1,8 @@
 export {default as BigCard} from './bigCard.js'
+export {default as MediumCard} from './mediumCard.js'
+export {default as SmallCard} from './smallCard.js'
+export {default as NewCard} from './newCard.js'
+export {default as NavBar} from './navBar.js'
+export {default as DialBar} from './dialBar.js'
+export {default as HeaderBar} from './headerBar.js'
+export {default as Footer} from './footer.js'
